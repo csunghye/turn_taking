@@ -1,6 +1,6 @@
 # Calculating turn-taking measures in natural conversations
 
-This Python script calculates simple turn-taking measures in natural conversations, such as total and mean speech/pause duration and overlapping speech duration, based on timestamps of transcripts. You will need time-stamped transcripts as a tab-separated file to use this script, and columns in the transcripts need to be in a specific order: ['filename', 'start', 'end', 'text', 'speaker', 'task']. The filename and task columns can be empty, but transcripts still need to have at least 6 columns. An example of a transcript is uploaded in this repository: `example_animal_fluency.txt` Please check out the example transcript, and make sure you have the same format. The pipeline will output a comma-separated file. 
+This Python script calculates simple turn-taking measures in natural conversations, such as total and mean speech/pause duration and overlapping speech duration, based on timestamps of transcripts. You will need time-stamped transcripts as a tab-separated file to use this script, and columns in the transcripts need to be in a specific order: ['filename', 'start', 'end', 'text', 'speaker', 'task']. The transcripts need to have at least 6 columns. An example of a transcript is uploaded in this repository: `example_animal_fluency.txt` Please check out the example transcript, and make sure you have the same format. The pipeline will output a comma-separated file. 
 
 # Packages
 - Numpy
