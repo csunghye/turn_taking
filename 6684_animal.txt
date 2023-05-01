@@ -1,0 +1,25 @@
+Audio	Start	End	Text	Speaker	Task
+6684_animal	6.228	7.763999999999999	Orangutan,	Subject	animal
+6684_animal	8.017000000000001	9.038	baboon,	Subject	animal
+6684_animal	10.082	11.044	monkey,	Subject	animal
+6684_animal	12.606	13.517000000000001	lemur,	Subject	animal
+6684_animal	14.948	15.843	meerkat,	Subject	animal
+6684_animal	17.226	17.985	frog,	Subject	animal
+6684_animal	19.147000000000002	19.932000000000002	toad,	Subject	animal
+6684_animal	20.674	21.349	dog,	Subject	animal
+6684_animal	21.974	22.615	cat,	Subject	animal
+6684_animal	23.4	24.269000000000002	guinea pig,	Subject	animal
+6684_animal	25.033	26.619	rat, ferret,	Subject	animal
+6684_animal	27.851999999999997	28.772	hamster,	Subject	animal
+6684_animal	29.351999999999997	30.136999999999997	fish,	Subject	animal
+6684_animal	30.947	34.211999999999996	bird, parrot, parakeet,	Subject	animal
+6684_animal	36.181	37.092	pigeon,	Subject	animal
+6684_animal	38.498000000000005	40.945	crow, raven, squirrel,	Subject	animal
+6684_animal	43.541000000000004	44.443999999999996	butterfly,	Subject	animal
+6684_animal	46.081	46.806999999999995	deer,	Subject	animal
+6684_animal	47.11600000000001	48.053000000000004	buffalo,	Subject	animal
+6684_animal	48.474	49.158	elk,	Subject	animal
+6684_animal	49.968	52.601000000000006	lion, tiger, giraffe,	Subject	animal
+6684_animal	53.323	54.007	bear,	Subject	animal
+6684_animal	55.239	57.18	wolf, coyote,	Subject	animal
+6684_animal	58.06	58.879	lizard,	Subject	animal
