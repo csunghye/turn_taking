@@ -14,4 +14,4 @@ This Python script calculates simple turn-taking measures in natural conversatio
 must be tab-separated.
 
 # Citation
-- Cho, Sunghye, Meredith Cola, Azia Knox, Maggie Rose Pelella, Alison Russell, Aili Hauptmann, Maxine Covello, Christopher Cieri, Mark Liberman, Robert T. Schultz, Julia Parish-Morris. Sex differences in the temporal dynamics of autistic children's natural conversations. Molecular Autism 14, 13. 
+- Cho, Sunghye, Meredith Cola, Azia Knox, Maggie Rose Pelella, Alison Russell, Aili Hauptmann, Maxine Covello, Christopher Cieri, Mark Liberman, Robert T. Schultz, Julia Parish-Morris. Sex differences in the temporal dynamics of autistic children's natural conversations. Molecular Autism 14, 13. [open access](https://molecularautism.biomedcentral.com/articles/10.1186/s13229-023-00545-6)
