@@ -31,15 +31,16 @@ def main(args):
             df.columns = ['Kit', 'Audio', 'Beg', 'End', 'Text', 'Speaker', 'Section']
         else:
             sys.exit('The transcript file is not in the right format. Please check again.')  
-        
+
         # calculate duration of each speech segment
         df['dur'] = df['End'] - df['Beg']
 
         # calculate duration of pause between speech segments
         df['pause_new_end'] = df['End'].shift(1)
         df['prev_speaker'] = df['Speaker'].shift(1)
-        df['prev_pause'] = df['Beg'] - df['End']
+        df['prev_pause'] = df['Beg'] - df['pause_new_end']
 	
+        print(df)
         # calculate overlapping speech measures
         overlap_being_sum = abs(df[(df.prev_pause < -0.1) & (df.prev_speaker == args.speaker)]['prev_pause'].sum())
         overlap_being_count = len(df.loc[(df.prev_pause < -0.1) & (df.prev_speaker == args.speaker), 'prev_pause'])
