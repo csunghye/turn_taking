@@ -4,7 +4,7 @@ import numpy as np
 
 def main(args):
 
-	# check the OS of a user
+    # check the OS of a user
     user_os = platform.system()
     # assign path separator (backslash or forward-slash depending on the os of the user)
     if user_os == "Windows":
@@ -23,6 +23,7 @@ def main(args):
 
     # loop through the filelist
     for transfile in list_of_trans:
+	print(transfile, " is being processed.")
         # read one file from the list and assign column names
         df = pd.read_csv(transfile, sep='\t')
         if len(df.columns) == 6:
@@ -40,7 +41,7 @@ def main(args):
         df['prev_speaker'] = df['Speaker'].shift(1)
         df['prev_pause'] = df['Beg'] - df['pause_new_end']
 	
-        print(df)
+        
         # calculate overlapping speech measures
         overlap_being_sum = abs(df[(df.prev_pause < -0.1) & (df.prev_speaker == args.speaker)]['prev_pause'].sum())
         overlap_being_count = len(df.loc[(df.prev_pause < -0.1) & (df.prev_speaker == args.speaker), 'prev_pause'])
